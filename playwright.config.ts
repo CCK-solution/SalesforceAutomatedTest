@@ -18,6 +18,10 @@ else{
  * See https://playwright.dev/docs/test-configuration.
  */
 export default defineConfig({
+
+  //time out
+  timeout: 5 * 60 * 1000,
+
   testDir: './src/tests',
   /* Run tests in files in parallel */
   fullyParallel: true,
@@ -30,6 +34,11 @@ export default defineConfig({
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
   reporter: 'html',
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
+
+  expect:{
+    timeout: 10 * 1000
+  },
+  
   use: {
     /* Base URL to use in actions like `await page.goto('/')`. */
     baseURL: 'https://login.salesforce.com/',

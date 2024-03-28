@@ -1,0 +1,66 @@
+2024-03-28T17:56:38+09:00 [info]: Password has been filled
+2024-03-28T17:56:39+09:00 [info]: clicked login button
+2024-03-28T17:56:45+09:00 [error]: Error clicking login button:Error: expect.toBeVisible: Error: strict mode violation: getByTitle('Setup') resolved to 2 elements:
+    1) <input type="text" id="159:83;a" role="combobox" maxlen…/> aka getByPlaceholder('Search Setup')
+    2) <span title="Setup" class="slds-truncate" data-aura-re…>Setup</span> aka getByTitle('Setup', { exact: true })
+
+Call log:
+  [2m- expect.toBeVisible with timeout 15000ms[22m
+[2m  - waiting for getByTitle('Setup')[22m
+
+2024-03-28T17:56:45+09:00 [info]: Service title is visible
+2024-03-28T17:56:51+09:00 [info]: Contants Tab is visible
+2024-03-28T17:56:51+09:00 [info]: contacts Tab is clicked
+2024-03-28T17:56:56+09:00 [info]: New button is clicked
+2024-03-28T17:56:58+09:00 [info]: First name is filled as nicolas
+2024-03-28T17:56:59+09:00 [info]: Last Name is filled as bahindwa
+2024-03-28T17:56:59+09:00 [info]: save button is clicked
+2024-03-28T17:57:02+09:00 [info]: New contact created and nicolas bahindwa is visible
+2024-03-28T17:57:03+09:00 [info]: contacts tab is clicked
+2024-03-28T17:57:03+09:00 [info]: text for contact creation os completed
+2024-03-28T18:10:49+09:00 [info]: Test for contact creation is started...
+2024-03-28T18:10:50+09:00 [info]: Test for contact creation is started...
+2024-03-28T18:10:51+09:00 [info]: Navigated to login.salesforce.com
+2024-03-28T18:10:51+09:00 [info]: UserName has been filled
+2024-03-28T18:10:51+09:00 [info]: Password has been filled
+2024-03-28T18:10:52+09:00 [info]: Navigated to login.salesforce.com
+2024-03-28T18:10:52+09:00 [info]: UserName has been filled
+2024-03-28T18:10:52+09:00 [info]: Password has been filled
+2024-03-28T18:10:54+09:00 [info]: clicked login button
+2024-03-28T18:10:55+09:00 [info]: clicked login button
+2024-03-28T18:10:59+09:00 [error]: Error clicking login button:Error: expect.toBeVisible: Error: strict mode violation: getByTitle('Setup') resolved to 2 elements:
+    1) <input type="text" id="159:83;a" role="combobox" maxlen…/> aka getByPlaceholder('Search Setup')
+    2) <span title="Setup" class="slds-truncate" data-aura-re…>Setup</span> aka getByTitle('Setup', { exact: true })
+
+Call log:
+  [2m- expect.toBeVisible with timeout 15000ms[22m
+[2m  - waiting for getByTitle('Setup')[22m
+
+2024-03-28T18:10:59+09:00 [info]: Service title is visible
+2024-03-28T18:11:08+09:00 [error]: Error clicking login button:Error: expect.toBeVisible: Error: strict mode violation: getByTitle('Setup') resolved to 2 elements:
+    1) <input type="text" id="159:83;a" role="combobox" maxlen…/> aka getByPlaceholder('Search Setup')
+    2) <span title="Setup" class="slds-truncate" data-aura-re…>Setup</span> aka getByTitle('Setup', { exact: true })
+
+Call log:
+  [2m- expect.toBeVisible with timeout 15000ms[22m
+[2m  - waiting for getByTitle('Setup')[22m
+
+2024-03-28T18:11:08+09:00 [info]: Service title is visible
+2024-03-28T18:11:09+09:00 [info]: Contants Tab is visible
+2024-03-28T18:11:10+09:00 [info]: contacts Tab is clicked
+2024-03-28T18:11:17+09:00 [info]: New button is clicked
+2024-03-28T18:11:19+09:00 [info]: First name is filled as Antony
+2024-03-28T18:11:19+09:00 [info]: Last Name is filled as Marcial
+2024-03-28T18:11:19+09:00 [info]: save button is clicked
+2024-03-28T18:11:22+09:00 [info]: New contact created and Antony Marcial is visible
+2024-03-28T18:11:22+09:00 [info]: Contants Tab is visible
+2024-03-28T18:11:23+09:00 [info]: contacts tab is clicked
+2024-03-28T18:11:23+09:00 [info]: text for contact creation os completed
+2024-03-28T18:11:24+09:00 [info]: contacts Tab is clicked
+2024-03-28T18:11:32+09:00 [info]: New button is clicked
+2024-03-28T18:11:34+09:00 [info]: First name is filled as Henry
+2024-03-28T18:11:34+09:00 [info]: Last Name is filled as maguire
+2024-03-28T18:11:35+09:00 [info]: save button is clicked
+2024-03-28T18:11:37+09:00 [info]: New contact created and Henry maguire is visible
+2024-03-28T18:11:38+09:00 [info]: contacts tab is clicked
+2024-03-28T18:11:38+09:00 [info]: text for contact creation os completed
