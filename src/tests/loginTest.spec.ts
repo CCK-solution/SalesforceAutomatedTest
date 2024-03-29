@@ -24,14 +24,14 @@ test.skip("test", async({page}) => {
 })
 
 
-test("simple env test", async({page}) => {
+test.skip("simple env test", async({page}) => {
     console.log(process.env.NODE_ENV);
     console.log(process.env.userid);
     console.log(process.env.username);
     console.log(process.env.password);
 })
 
-test("test encryption", async({page})=>{
+test.skip("test encryption", async({page})=>{
     // const plaintext = "Hello, MAMA";
     // const encryptedText = encrypt(plaintext)
     // console.log('SALT:', process.env.SALT);
