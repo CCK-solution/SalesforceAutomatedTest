@@ -30,6 +30,7 @@ test.skip("simple contact test", async({page}) => {
     logger.info("text for contact creation os completed");
 });
 
+
 for(const contact of cdata){
     test(`using test Data contact test${contact.firstName}`, async({page}) => {
         logger.info("Test for contact creation is started...");
@@ -39,6 +40,8 @@ for(const contact of cdata){
         await loginPage.navigateToLoginPage();
         await loginPage.fillUsername(decrypt(process.env.userid!));
         await loginPage.fillPassword(decrypt(process.env.password!));
+        console.log(decrypt(process.env.userid!));
+        console.log(decrypt(process.env.password!));
         const homePage = await loginPage.clickLoginButton();
         await homePage.expectServiceTitleTobeVisible();
     

@@ -1,4 +1,4 @@
-2024-03-28T17:09:48+09:00 [error]: Error clicking login button:Error: expect.toBeVisible: Error: strict mode violation: getByTitle('Setup') resolved to 2 elements:
+2024-03-29T13:08:59+09:00 [error]: Error clicking login button:Error: expect.toBeVisible: Error: strict mode violation: getByTitle('Setup') resolved to 2 elements:
     1) <input type="text" id="159:83;a" role="combobox" maxlen…/> aka getByPlaceholder('Search Setup')
     2) <span title="Setup" class="slds-truncate" data-aura-re…>Setup</span> aka getByTitle('Setup', { exact: true })
 
@@ -6,7 +6,7 @@ Call log:
   [2m- expect.toBeVisible with timeout 15000ms[22m
 [2m  - waiting for getByTitle('Setup')[22m
 
-2024-03-28T17:13:22+09:00 [error]: Error clicking login button:Error: expect.toBeVisible: Error: strict mode violation: getByTitle('Setup') resolved to 2 elements:
+2024-03-29T13:09:10+09:00 [error]: Error clicking login button:Error: expect.toBeVisible: Error: strict mode violation: getByTitle('Setup') resolved to 2 elements:
     1) <input type="text" id="159:83;a" role="combobox" maxlen…/> aka getByPlaceholder('Search Setup')
     2) <span title="Setup" class="slds-truncate" data-aura-re…>Setup</span> aka getByTitle('Setup', { exact: true })
 
@@ -14,71 +14,7 @@ Call log:
   [2m- expect.toBeVisible with timeout 15000ms[22m
 [2m  - waiting for getByTitle('Setup')[22m
 
-2024-03-28T17:16:43+09:00 [error]: Error clicking login button:Error: expect.toBeVisible: Error: strict mode violation: getByTitle('Setup') resolved to 2 elements:
-    1) <input type="text" id="159:83;a" role="combobox" maxlen…/> aka getByPlaceholder('Search Setup')
-    2) <span title="Setup" class="slds-truncate" data-aura-re…>Setup</span> aka getByTitle('Setup', { exact: true })
-
-Call log:
-  [2m- expect.toBeVisible with timeout 15000ms[22m
-[2m  - waiting for getByTitle('Setup')[22m
-
-2024-03-28T17:18:49+09:00 [error]: Error clicking login button:Error: expect.toBeVisible: Error: strict mode violation: getByTitle('Setup') resolved to 2 elements:
-    1) <input type="text" id="159:83;a" role="combobox" maxlen…/> aka getByPlaceholder('Search Setup')
-    2) <span title="Setup" class="slds-truncate" data-aura-re…>Setup</span> aka getByTitle('Setup', { exact: true })
-
-Call log:
-  [2m- expect.toBeVisible with timeout 15000ms[22m
-[2m  - waiting for getByTitle('Setup')[22m
-
-2024-03-28T17:29:49+09:00 [error]: Error clicking login button:Error: expect.toBeVisible: Error: strict mode violation: getByTitle('Setup') resolved to 2 elements:
-    1) <input type="text" id="159:83;a" role="combobox" maxlen…/> aka getByPlaceholder('Search Setup')
-    2) <span title="Setup" class="slds-truncate" data-aura-re…>Setup</span> aka getByTitle('Setup', { exact: true })
-
-Call log:
-  [2m- expect.toBeVisible with timeout 15000ms[22m
-[2m  - waiting for getByTitle('Setup')[22m
-
-2024-03-28T17:36:19+09:00 [error]: Error clicking login button:Error: expect.toBeVisible: Error: strict mode violation: getByTitle('Setup') resolved to 2 elements:
-    1) <input type="text" id="159:83;a" role="combobox" maxlen…/> aka getByPlaceholder('Search Setup')
-    2) <span title="Setup" class="slds-truncate" data-aura-re…>Setup</span> aka getByTitle('Setup', { exact: true })
-
-Call log:
-  [2m- expect.toBeVisible with timeout 15000ms[22m
-[2m  - waiting for getByTitle('Setup')[22m
-
-2024-03-28T17:44:00+09:00 [error]: Error clicking login button:Error: expect.toBeVisible: Error: strict mode violation: getByTitle('Setup') resolved to 2 elements:
-    1) <input type="text" id="159:83;a" role="combobox" maxlen…/> aka getByPlaceholder('Search Setup')
-    2) <span title="Setup" class="slds-truncate" data-aura-re…>Setup</span> aka getByTitle('Setup', { exact: true })
-
-Call log:
-  [2m- expect.toBeVisible with timeout 15000ms[22m
-[2m  - waiting for getByTitle('Setup')[22m
-
-2024-03-28T17:54:09+09:00 [error]: Error clicking login button:Error: expect.toBeVisible: Error: strict mode violation: getByTitle('Setup') resolved to 2 elements:
-    1) <input type="text" id="159:83;a" role="combobox" maxlen…/> aka getByPlaceholder('Search Setup')
-    2) <span title="Setup" class="slds-truncate" data-aura-re…>Setup</span> aka getByTitle('Setup', { exact: true })
-
-Call log:
-  [2m- expect.toBeVisible with timeout 15000ms[22m
-[2m  - waiting for getByTitle('Setup')[22m
-
-2024-03-28T17:56:45+09:00 [error]: Error clicking login button:Error: expect.toBeVisible: Error: strict mode violation: getByTitle('Setup') resolved to 2 elements:
-    1) <input type="text" id="159:83;a" role="combobox" maxlen…/> aka getByPlaceholder('Search Setup')
-    2) <span title="Setup" class="slds-truncate" data-aura-re…>Setup</span> aka getByTitle('Setup', { exact: true })
-
-Call log:
-  [2m- expect.toBeVisible with timeout 15000ms[22m
-[2m  - waiting for getByTitle('Setup')[22m
-
-2024-03-28T18:10:59+09:00 [error]: Error clicking login button:Error: expect.toBeVisible: Error: strict mode violation: getByTitle('Setup') resolved to 2 elements:
-    1) <input type="text" id="159:83;a" role="combobox" maxlen…/> aka getByPlaceholder('Search Setup')
-    2) <span title="Setup" class="slds-truncate" data-aura-re…>Setup</span> aka getByTitle('Setup', { exact: true })
-
-Call log:
-  [2m- expect.toBeVisible with timeout 15000ms[22m
-[2m  - waiting for getByTitle('Setup')[22m
-
-2024-03-28T18:11:08+09:00 [error]: Error clicking login button:Error: expect.toBeVisible: Error: strict mode violation: getByTitle('Setup') resolved to 2 elements:
+2024-03-29T13:09:40+09:00 [error]: Error clicking login button:Error: expect.toBeVisible: Error: strict mode violation: getByTitle('Setup') resolved to 2 elements:
     1) <input type="text" id="159:83;a" role="combobox" maxlen…/> aka getByPlaceholder('Search Setup')
     2) <span title="Setup" class="slds-truncate" data-aura-re…>Setup</span> aka getByTitle('Setup', { exact: true })
 

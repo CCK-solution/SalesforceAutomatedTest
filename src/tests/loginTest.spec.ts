@@ -31,13 +31,16 @@ test.skip("simple env test", async({page}) => {
     console.log(process.env.password);
 })
 
-test.skip("test encryption", async({page})=>{
-    // const plaintext = "Hello, MAMA";
-    // const encryptedText = encrypt(plaintext)
-    // console.log('SALT:', process.env.SALT);
-    // console.log('Encrypted:', encryptedText);
-    // const decryptedText = decrypt(encryptedText);
-    // console.log('Decrypted:', decryptedText);
+test("test encryption", async({page})=>{
+    const plaintext = "Hello, MAMA";
+    const encryptedText = encrypt(plaintext)
+    console.log('SALT:', process.env.SALT);
+    console.log('Encrypted:', encryptedText);
+    const decryptedText = decrypt(encryptedText);
+    console.log('Decrypted:', decryptedText);
+    console.log(decrypt(process.env.userid!));
+    console.log(decrypt(process.env.password!));
 
-    encryptEnvFile();
+
+    // encryptEnvFile();
 })
