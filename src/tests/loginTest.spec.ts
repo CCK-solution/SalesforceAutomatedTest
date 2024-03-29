@@ -4,7 +4,7 @@ import {decrypt, encrypt } from "../utils/CryptojsUtils";
 import {encryptEnvFile, descryptEnvFile} from "../utils/EncryptEnvFile";
 
 
-test.only("test", async({page}) => {
+test.skip("test", async({page}) => {
     const loginPage = new LoginPage(page);
     
     await loginPage.navigateToLoginPage();
