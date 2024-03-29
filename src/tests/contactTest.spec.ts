@@ -4,12 +4,12 @@ import logger from "../utils/LoggerUtils";
 import {demoOutput} from '../utils/fakersample';
 import {exportToJson, exportToCsv, generateTestData} from '../utils/FakerDataUtil';
 import LoginPage from "../pages/LoginPage";
-import cdata from "../data/contacts.json";
+import cdata from "../data/datademo.json";
 import {convertCsvFileToJsonFile} from "../utils/CsvtoJsonUtil";
 
 
 
-test("simple contact test", async({page}) => {
+test.skip("simple contact test", async({page}) => {
     logger.info("Test for contact creation is started...");
     const fname = 'nicolas';
     const lname = 'bahindwa';
@@ -31,7 +31,7 @@ test("simple contact test", async({page}) => {
 });
 
 for(const contact of cdata){
-    test.skip(`using test Data contact test${contact.firstName}`, async({page}) => {
+    test(`using test Data contact test${contact.firstName}`, async({page}) => {
         logger.info("Test for contact creation is started...");
         // const fname = 'nicolas';
         // const lname = 'bahindwa';

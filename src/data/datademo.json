@@ -1,18 +1,18 @@
 [
   {
-    "firstname": "nicolas",
-    "lastname": "bahindwa"
+    "firstName": "nicolas",
+    "lastName": "bahindwa"
   },
   {
-    "firstname": "james",
-    "lastname": "tresor"
+    "firstName": "james",
+    "lastName": "tresor"
   },
   {
-    "firstname": "jean",
-    "lastname": "richard"
+    "firstName": "jean",
+    "lastName": "richard"
   },
   {
-    "firstname": "jonathan",
-    "lastname": "bramson"
+    "firstName": "jonathan",
+    "lastName": "bramson"
   }
 ]
