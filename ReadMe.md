@@ -19,3 +19,14 @@
     1991Nicolas
 
     C:\Users\00501101\Documents\playwright-crash\InterpriseTestingTS>
+
+# logging
+
+install winston: npm i winston
+install moment timezon: npm i moment-timezone
+
+
+# installing faker
+npm install --save-dev @faker-js/faker
+
+
