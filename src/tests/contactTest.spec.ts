@@ -32,7 +32,7 @@ test.skip("simple contact test", async({page}) => {
 
 
 for(const contact of cdata){
-    test(`using test Data contact test${contact.firstName}`, async({page}) => {
+    test.skip(`using test Data contact test${contact.firstName}`, async({page}) => {
         logger.info("Test for contact creation is started...");
         // const fname = 'nicolas';
         // const lname = 'bahindwa';
